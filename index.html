@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Startup de Tecnologia e inovação">
+    <meta name="keywords" content="tecnologia, inovação, gadgets, startaup, muriaé, ifsudestemg, brasil, negocios.">
+    <meta name="author" content="PONTES TECNOLOGIA">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#4b0082">
+    <meta property="og:title" content="PONTES TECNOLOGIA">
+    <meta property="og:description" content="Startup de Tecnologia e inovação.">
+    <meta property="og:image" content="https://pontes.rf.gd/img/logo_pontes.png">
+    <meta property="og:url" content="https://pontes.rf.gd">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pontestartup">
+    <meta name="twitter:title" content="PONTES TECNOLOGIA">
+    <meta name="twitter:description" content="Startup de Tecnologia e inovação.">
+    <meta name="twitter:image" content="https://pontes.rf.gd/img/logo_pontes.png">
+    <link rel="shortcut icon" href="img/logo_pontes.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/logo_pontes.png">
+    <link rel="stylesheet" media="(max-width: 1072px)" href="css/responsive.css" />
+    <link rel="stylesheet" media="(min-width: 1072px)" href="css/style_main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css">
+    <title>PONTES - TECNOLOGIA </title>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <figure>
+                <img src="img/logo_pontes.png" alt="Logo Pontes">
+                <h1>Pontes</h1>
+            </figure>
+            <!-- <div class="menu-sanduiche" id="menuMobile"><i class="fa-solid fa-bars"></i> -->
+            <div class="menu-sand" id="menuMobile"><span class="btn_menu"></span></div>
+
+            <ul id="menu">
+                <li><a href="#"><span class="out" onclick="tomenu(event)">home</span></a></li>
+                <li><a href="#contact"><span class="out" onclick="tomenu(event)">Contato</span></a></li>
+                <li><a href="./sobre.html" target="_blank"><span class="out" onclick="tomenu(event)">SOBRE</span></a>
+                </li>
+                <li><a href="#"><span class="out" onclick="tomenu(event)">Blog</span></a></li>
+                <li><a href="#"><span class="out" onclick="tomenu(event)">Equipe</span></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+
+        <section class="left">
+            <div class="description">
+                <h1 class="tecnologia">Startup de</h1>
+                <P class="tecnologi" id="tec">TECNOLOGIA</P>
+            </div>
+
+            <div class="container">
+                <form method="post" action="back-end/envio.php">
+                    <h1 class="contact" id="contact">Contato</h1>
+                    <p>Entre em contato consco</p>
+                    <div class="input-form">
+                        <input type="text" name="nome" id="nome-box" class="input" required>
+                        <label for="nome-box">Digite seu Nome</label>
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="email" id="email-box" class="input" required>
+                        <label for="email-box">Digite seu E-mail </label>
+                    </div>
+                    <div class="input-form">
+                        <input type="text" name="msg" id="msg-box" class="input" required>
+                        <label for="msg-box">Digite sua Mensagem</label>
+                    </div>
+                    <div class="btn"><input type="submit" value="" id="envio"></div>
+                </form>
+            </div>
+
+            <div class="redes">
+                <ul>
+                    <li id="btn_shared"><a href=""></a><i class="fa-solid fa-square-share-nodes"></i></a></li>
+                    <li><a href="https://facebook.com/pontestartup" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://instagram.com/pontestartup" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://youtube.com/pontestartup" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://github.com/pontestartup" target="_blank"><i class="fa-brands fa-github"></i></i></a></li>
+                    <li><a href="https://wa.me/+5532988188458"><i class="fa-brands fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="right">
+            <figure>
+                <img class="circulo1" src="img/circulo_pontes_1.png" alt="Circulo de luz sobre o personagem">
+                <img class="homem" src="img/people_leptop_pontes.png" alt="homem com leptop sorrindo">
+                <!-- <img class= "circulo2" src="/img/circulo_pontes_2.png" alt="Circulo de luz por traz do personagem"> -->
+            </figure>
+        </section>
+
+    </main>
+</body>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="js/script.js"></script>
+
+</html>
